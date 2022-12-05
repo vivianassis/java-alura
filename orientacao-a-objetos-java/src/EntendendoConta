@@ -1,0 +1,17 @@
+O que a conta tem?
+saldo
+agencia
+numero
+titular
+
+Isso são atributos da classe Conta
+
+
+O que a conta faz (ou o que fazemos na conta)?
+deposito
+saque
+transferencia
+
+Isso são métodos da classe Conta
+
+
