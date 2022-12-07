@@ -1,0 +1,18 @@
+O que a conta tem? ((atributos da classe Conta))
+saldo
+agencia
+numero
+titular
+
+O que a conta faz (ou o que fazemos na conta)? ((métodos da classe Conta))
+deposito
+saque
+transferencia
+
+O que o Cliente tem?
+nome 
+cpf
+profissão
+
+
+
