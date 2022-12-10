@@ -4,6 +4,23 @@ public class Conta {
     private int numero;
     private Cliente titular;
 
+    //Aqui aprendemos sobre o construtor da classe conta, com ele, vamos passar parametros obrigatórios para a criação da classe
+    //Agora para abrir a conta, precisamos logo de cara passar a agência e o número, e eles não podem ser 0, resolvendo o problema que ocorre quando, no Java, o valor padrão de um atributo é 0
+    //Agora não poderemos inicializar a Conta só com (), pois o construtor pede agência e numero(da conta).
+    public Conta(int agencia , int numero) {
+        if (agencia <=0){
+            System.out.println("Por favor, revise o valor inserido.");
+            return;
+        }
+        this.agencia = agencia;
+        if (numero <=0){
+            System.out.println("Por favor, revise o valor inserido.");
+            return;
+        }
+        this.numero = numero;
+        System.out.println("Estou criando a conta " + numero);
+    }
+
     //tipo 'Conta' tem 4 atributos
 
     //metodo deposita
@@ -49,15 +66,11 @@ public class Conta {
 
     //altera, determina, designa 'número' da conta
     public void setNumero(int numero){
-        if ( numero <=0 ) {
-            System.out.println("Por favor, revise o valor inserido.");
-            return;
-        }
         this.numero = numero;
     }
     //o número DESSA CONTA valerá o número recebido como argumento na chamada do método
 
-    //escrevendo o 'getAge... + enter' a ide completa pois o atributo é privado e presume-se que se criará o método
+    //escrevendo o 'getAge... + enter' a ide completa, porque o atributo é privado e presume-se que se criará o método
     public int getAgencia() {
         return agencia;
     }
@@ -81,7 +94,7 @@ public class Conta {
         this.titular = titular;
     }
 
-    //não precisamos do 'setSaldo' pois ja temos métodos de manipulação de saldo suficientes!
+    //não precisamos do 'setSaldo', pois ja temos métodos de manipulação para 'saldo' suficientes!
 
 
 

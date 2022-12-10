@@ -1,8 +1,8 @@
 public class TesteGetSet {
     public static void main(String[] args) {
-        Conta conta = new Conta();
+        Conta conta = new Conta(1337, 45678-2);
         //conta.numero = 1337;
-        conta.setNumero(1337);
+        //conta.setNumero(1337);
         System.out.println(conta.getNumero());
 
         conta.deposita(300);
@@ -12,8 +12,8 @@ public class TesteGetSet {
         //conta.titular = matheus;
         matheus.setNome("Matheus Rodrigues");
         conta.setTitular(matheus);
-        conta.setAgencia(1337);
-        conta.setNumero(45678-2);
+        //conta.setAgencia(1337);
+        //conta.setNumero(45678-2);
 
         System.out.println(conta.getTitular().getNome());
         //A cada ponto (.) ele anda um 'caminho' a frente nos métodos para alcançar as informações
