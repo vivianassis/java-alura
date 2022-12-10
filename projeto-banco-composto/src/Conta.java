@@ -1,8 +1,8 @@
 public class Conta {
-    double saldo;
+    private double saldo;
     int agencia;
     int numero;
-    String titular;
+    Cliente titular;
 
     //tipo 'Conta' tem 4 atributos
 
@@ -33,7 +33,10 @@ public class Conta {
         }else {
             return false;
         }
-
+    }
+    //metodo que devolve o saldo, pois privamos o saldo
+    public double getSaldo(){
+        return this.saldo;
     }
 
 }
