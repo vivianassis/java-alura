@@ -4,6 +4,8 @@ public class Conta {
     private int numero;
     private Cliente titular;
 
+    private static int total; //STATIC = atributo 'da classe', ou seja, o número total não é de cada conta e sim de 'contas' instanciadas
+
     //Aqui aprendemos sobre o construtor da classe conta, com ele, vamos passar parametros obrigatórios para a criação da classe
     //Agora para abrir a conta, precisamos logo de cara passar a agência e o número, e eles não podem ser 0, resolvendo o problema que ocorre quando, no Java, o valor padrão de um atributo é 0
     //Agora não poderemos inicializar a Conta só com (), pois o construtor pede agência e numero(da conta).
@@ -18,7 +20,11 @@ public class Conta {
             return;
         }
         this.numero = numero;
-        System.out.println("Estou criando a conta " + numero);
+        Conta.total++; //a cada conta criada, aumenta o número de contas criadas
+
+        System.out.println("Criamos a conta nº: " + numero +", agência nº: " + agencia + " com sucesso!");
+        //System.out.println("Essa é a conta de número " + total + " em nosso banco!");  Vamos criar um método, pois é melhor usar os métodos do que acessar atributos diretamente
+        System.out.println("Essa é a conta de número "+Conta.getTotal()+" em nosso banco!");
     }
 
     //tipo 'Conta' tem 4 atributos
@@ -97,7 +103,9 @@ public class Conta {
     //não precisamos do 'setSaldo', pois ja temos métodos de manipulação para 'saldo' suficientes!
 
 
-
+    public static int getTotal() {
+        return Conta.total;
+    }
 }
 
 
