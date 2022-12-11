@@ -3,7 +3,7 @@ package colaborador;
 public class Funcionario {
     private String nome;
     private String cpf;
-    private double salario;
+    /*protected*/private double salario; //protected quer dizer 'PUBLICO SÓ PARA OS MÉTODOS FILHOS', mas é melhor manter todos os atributos privados e usar os métodos getters e setters para manipulá-los
 
     private final double bonificacao = salario;
 
@@ -27,8 +27,7 @@ public class Funcionario {
 
     //criar métodos
     public double getBonificacao(){
-        this.salario = salario*0.1;
-        return salario;
+        return this.salario *0.1;
     }
 
     public String getNome() {
