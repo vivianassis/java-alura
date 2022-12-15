@@ -1,6 +1,9 @@
 package colaborador;
 
-public class Funcionario {
+//colocaremos o 'abstract' nessa classe porque o tipo 'Funcionário é um tipo muito genérico, o
+//qual não queremos poder criar um (dar 'new Funcionário()'), pois um funcionário precisa ser de algum
+//tipo mais específico, mais concreto, então queremos criar assim: (new Gerente(), new Editor de vídeo(), etc).
+public abstract class Funcionario {
     private String nome;
     private String cpf;
     /*protected*/private double salario; //protected quer dizer 'PUBLICO SÓ PARA OS MÉTODOS FILHOS', mas é melhor manter todos os atributos privados e usar os métodos getters e setters para manipulá-los

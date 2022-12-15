@@ -14,4 +14,9 @@ public class ContaCorrente extends Conta{
 
     }
 
+    //escrevendo saca+enter, ele entende que se quer sobrescrever o método 'saca' da classe mãe 'Conta'
+    @Override  //anotação do Java para sobreescrever o método
+    public boolean saca(double valor) {
+        return super.saca(valor + 0.2);
+    }
 }

@@ -14,7 +14,7 @@ public class TestaReferencias {
         g3.setSalario(2800);
 
         //---------------------------------------------------
-        Funcionario f1 = new Funcionario();
+        Funcionario f1 = new EditorVideo();
         f1.setSalario(2000);
         EditorVideo e1 = new EditorVideo();
         e1.setSalario(2500);

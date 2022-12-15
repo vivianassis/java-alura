@@ -2,7 +2,7 @@ package colaborador;
 
 public class TestaFuncionario {
     public static void main(String[] args) {
-        Funcionario maria = new Funcionario();
+        Funcionario maria = new Gerente();
         //podemos retirar todas essas linhas abaixo, de todas as inicializações, mudando apenas o construtor
         maria.setNome("Maria Santana");
         maria.setCpf("089.486.498-09");
