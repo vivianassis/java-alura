@@ -26,12 +26,14 @@ public abstract class Funcionario {
         //System.out.println("Bônus: "+getBonificacao(0.1)); **((o mesmo caso de acima))
     }*/
 
-
+//----------------------------------------------------------------------------------------------------------------
 
     //criar métodos
-    public double getBonificacao(){
-        return this.salario *0.1;
-    }
+
+    //usamos o 'abstract' em métodos para informar ao java que esse método não tem implementação aqui,
+    // só terá implementação nos filhos.
+    public abstract double getBonificacao();
+    //{return this.salario *0.1;}
 
     public String getNome() {
         return nome;
