@@ -29,6 +29,12 @@ public class TesteContas {
 
         contaCorrente.saca(90);
         System.out.println(contaCorrente.getSaldo());
+
+        ContaCorrente cc = new ContaCorrente(111,234);
+        System.out.println("Teste nova localização método depósito");
+        System.out.println(cc.getSaldo());
+        cc.deposita(300);
+        System.out.println(cc.getSaldo());
         }
 
 
