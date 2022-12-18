@@ -10,14 +10,22 @@ public class Gerente extends Funcionario implements Autenticavel {
     } // ou seja, por exemplo, o super.getBonificação é o da classe Funcionário e
 
     //criar métodos concretos para as abstrações da 'interface' Autenticável:
-    private int senha;
-    @Override
-    public void setSenha(int senha) {
-        this.senha = senha;
+    private AutenticacaoUtil autenticador;
+
+    //Composição usa classe com o código repetido escrito dentro dela, chamando-os nos locais
+    //onde ele será usado (através do construtor, e do corpo dos métodos)
+
+    public Gerente(){
+        this.autenticador = new AutenticacaoUtil();
     }
     @Override
+    public void setSenha(int senha) {
+        this.autenticador.setSenha(senha);
+    }
+
+    @Override
     public boolean autentica(int senha) {
-        return this.senha == senha;
+        return this.autenticador.autentica(senha);
     }
 
 }
