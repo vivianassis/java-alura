@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3767dc8a-35ff-4924-81b2-247a3301514e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../heranca-java-alura-novo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../heranca-java-alura-novo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../heranca-java-alura-novo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../heranca-java-alura-novo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../heranca-java-alura-novo/heranca-java-alura-novo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../heranca-java-alura-novo/out/production/heranca-java-alura-novo/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../heranca-java-alura-novo/out/production/heranca-java-alura-novo/colaborador/Funcionario.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../heranca-java-alura-novo/out/production/heranca-java-alura-novo/colaborador/Gerente.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../heranca-java-alura-novo/out/production/heranca-java-alura-novo/colaborador/TestaFuncionario.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../heranca-java-alura-novo/out/production/heranca-java-alura-novo/colaborador/TestaGerente.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../heranca-java-alura-novo/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../heranca-java-alura-novo/src/colaborador/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../heranca-java-alura-novo/src/colaborador/Gerente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../heranca-java-alura-novo/src/colaborador/TestaFuncionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../heranca-java-alura-novo/src/colaborador/TestaGerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../herdado-conta/src/defaults/SistemaInterno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,16 +31,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "19",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\java-alura\projeto-heranca-java-alura\src\funcionario" />

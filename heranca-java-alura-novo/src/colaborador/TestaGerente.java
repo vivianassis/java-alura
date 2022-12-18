@@ -14,6 +14,6 @@ public class TestaGerente {
         System.out.println(g1.getCpf());
         System.out.println(g1.getSalario());
         System.out.println(g1.getBonificacao());
-        System.out.println(g1.autenticaGerente(2123));
+        System.out.println(g1.autentica(2123));
     }
 }
