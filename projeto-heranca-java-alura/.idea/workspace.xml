@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3767dc8a-35ff-4924-81b2-247a3301514e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../herdado-conta/src/defaults/SistemaInterno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../herdado-conta/src/defaults/CalculadorImposto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../herdado-conta/src/defaults/SeguroVida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../herdado-conta/src/defaults/Tributavel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../herdado-conta/src/defaults/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../herdado-conta/src/defaults/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../herdado-conta/src/defaults/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../herdado-conta/src/defaults/ContaCorrente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

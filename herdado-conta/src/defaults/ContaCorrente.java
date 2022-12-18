@@ -1,7 +1,7 @@
 package defaults;
 
 //extends herda tudo da classe mãe, menos os construtores, que precisam ser invocados/criados, mas atenção:
-public class ContaCorrente extends Conta {
+public class ContaCorrente extends Conta implements Tributavel{
 
     //public ContaCorrente(){}         -- O Java chama o construtor padrão, que não existe.
 
@@ -23,5 +23,10 @@ public class ContaCorrente extends Conta {
     @Override  //anotação do Java para sobreescrever o método
     public boolean saca(double valor) {
         return super.saca(valor + 0.2);
+    }
+
+    @Override
+    public double getValorImposto() {
+        return super.getSaldo()*0.01;
     }
 }
